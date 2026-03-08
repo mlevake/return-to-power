@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Return to Power — An Isometric Sandbox MMO</title>
+  <meta name="description" content="Return to Power is a player-driven isometric sandbox MMORPG inspired by Ultima Online. Build, fight, trade, and claim territory in a living world that resets each season." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <nav class="nav">
+      <span class="nav-logo">⚔ Return to Power</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#signup">Stay Updated</a>
+        <a href="https://discord.gg/clawd" target="_blank" class="btn-outline">Discord</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Now in Development</p>
+      <h1 class="hero-title">Return to Power</h1>
+      <p class="hero-sub">A player-driven isometric sandbox MMO.<br>Inspired by the golden age of Ultima Online.</p>
+      <div class="hero-actions">
+        <a href="#signup" class="btn-primary">Get Early Access Updates</a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── ABOUT ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">What Is Return to Power?</h2>
+      <p class="section-lead">
+        Return to Power is an isometric sandbox MMORPG built for players who remember when MMOs were <em>dangerous</em>. 
+        A living hex-tile world where territory matters, skills are earned — not bought — and every season the world resets, 
+        giving everyone a fair shot at power.
+      </p>
+      <div class="pillars">
+        <div class="pillar">
+          <span class="pillar-icon">🗺</span>
+          <h3>Hex-Tile World</h3>
+          <p>A procedurally generated world built on a hex grid. Claim tiles, build towns, and watch your territory grow — or fall.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar-icon">⚔</span>
+          <h3>Skill-Based Combat</h3>
+          <p>No classes. No levels. Train what you use. Master swordsmanship, magic, stealth, or crafting — the choice is yours.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar-icon">🔄</span>
+          <h3>Seasonal Resets</h3>
+          <p>The world resets each season. Your legend carries forward — your territory doesn't. Everyone starts the climb again.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar-icon">🏘</span>
+          <h3>Player Economies</h3>
+          <p>Player-run shops, guild-owned markets, resource scarcity. The economy is entirely in players' hands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ── -->
+  <section class="section section-dark" id="features">
+    <div class="container">
+      <h2 class="section-title">Built From the Ground Up</h2>
+      <ul class="features-list">
+        <li><span class="check">✓</span> Isometric movement &amp; UO-style targeting</li>
+        <li><span class="check">✓</span> 35-skill system with bucket caps (no skill dumping)</li>
+        <li><span class="check">✓</span> Full spell system with targeting flow</li>
+        <li><span class="check">✓</span> Equipment with rarity tiers</li>
+        <li><span class="check">✓</span> Hex tile world editor with biome generation</li>
+        <li><span class="check">✓</span> Zone-based world with seamless travel</li>
+        <li><span class="soon">⧗</span> Multiplayer networking (coming soon)</li>
+        <li><span class="soon">⧗</span> Player housing &amp; vendor system</li>
+        <li><span class="soon">⧗</span> Guild &amp; faction territory wars</li>
+        <li><span class="soon">⧗</span> Seasonal world reset events</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── DEVLOG CTA ── -->
+  <section class="section" id="devlog">
+    <div class="container center">
+      <h2 class="section-title">Follow the Build</h2>
+      <p class="section-lead">This game is being built in public. Watch it go from idea to playable world — bugs and all.</p>
+      <div class="cta-row">
+        <a href="https://youtube.com/@returntopower" target="_blank" class="btn-primary">📺 YouTube Devlogs</a>
+        <a href="https://discord.gg/clawd" target="_blank" class="btn-outline">💬 Join the Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SIGNUP ── -->
+  <section class="section section-dark" id="signup">
+    <div class="container center">
+      <h2 class="section-title">Stay in the Loop</h2>
+      <p class="section-lead">Get notified when alpha access opens. No spam — just big updates.</p>
+
+      <!-- Mailchimp embed goes here — replace action URL after setting up list -->
+      <form class="signup-form" action="#" method="post" id="email-form">
+        <input type="email" name="email" placeholder="your@email.com" required class="email-input" />
+        <button type="submit" class="btn-primary">Notify Me</button>
+      </form>
+      <p class="form-note">We'll never sell your email. Unsubscribe any time.</p>
+    </div>
+  </section>
+
+  <!-- ── SUPPORT ── -->
+  <section class="section" id="support">
+    <div class="container center">
+      <h2 class="section-title">Support Development</h2>
+      <p class="section-lead">This is a solo passion project. Every coffee helps keep the lights on.</p>
+      <!-- Ko-fi button — replace YOUR_USERNAME after setting up Ko-fi -->
+      <a href="https://ko-fi.com/returntopower" target="_blank" class="btn-kofi">
+        ☕ Support on Ko-fi
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>© 2026 Return to Power &nbsp;·&nbsp; <a href="mailto:hello@returntopower.gg">hello@returntopower.gg</a></p>
+    <p class="footer-note">Built with Godot 4 &nbsp;·&nbsp; Inspired by Ultima Online</p>
+  </footer>
+
+</body>
+</html>
